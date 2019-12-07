@@ -1,4 +1,4 @@
-const PubSub = require('../helpers/pub_sub.js');
+import PubSub from '../helpers/pub_sub.js';
 
 class SelectView {
   constructor(element) {
@@ -27,4 +27,4 @@ class SelectView {
   };
 }
 
-module.exports = SelectView;
+export default SelectView;
